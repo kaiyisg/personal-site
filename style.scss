@@ -90,7 +90,8 @@ html {
 }
 
 body {
-	background: $white;
+	// background: $white;
+  background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
   margin: 0 0 100px; /* bottom = footer height */
@@ -320,6 +321,7 @@ nav {
 }
 
 .main-name {
+  font-family: 'Work Sans', sans-serif;
   font-size: 50px;
   margin-bottom: 1em;
   #surname {
@@ -331,14 +333,17 @@ nav {
   font-size: 25px;
   font-weight: bold;
   color: darkseagreen;
+  font-family: 'Judson', serif;
 }
 
 .main-descrip {
+  font-family: 'Judson', serif;
 }
 
 .main-para {
   margin-top: 8em;
-  font-size: 15px
+  font-size: 15px;
+  font-family: 'Judson', serif;
 }
 
 // .main-container {
