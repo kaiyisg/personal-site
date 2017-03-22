@@ -10,37 +10,20 @@
   vertical-align: middle;
   width: 100%; 
   
-  @media(min-width: 400px) {
+  @media(min-width: 320px) {
     display: inline-block;
-    margin-right: 2.5em;
   
     &:nth-of-type(even) {
       margin-right: 0;
     }
   }
-  
-  @media(min-width: 600px) {
-  
-    &:nth-of-type(even) {
-      margin-right: 2.5em;
-    }
-    
-    &:nth-of-type(5) {
-      margin-right: 0;
-    }
-    
-  }
-  
-  &:hover { text-decoration: none; }
-  
 }
 
 .btn-cus {
     letter-spacing: 0;
 }
 
-.btn-cus:after,
-.btn-cus:before {
+.btn-cus:after {
   backface-visibility: hidden;
   border: 1px solid rgba(#333, 0);
   bottom: 0px;
@@ -50,16 +33,62 @@
   width: 0;
 }
 
-.btn-cus:hover:after,
-.btn-cus:hover:before {
+.btn-1 {
+  color: #3a707f;
+}
+
+.btn-1:hover:after {
   backface-visibility: hidden;
   border-color: #333;
   transition: width 350ms ease-in-out;
-  width: 60%;
+  width: 58%;
 }
 
-.btn-cus:hover:before {
-  bottom: auto;
-  top: 0;
-  width: 60%;
+.btn-1:hover {
+  color: #3a707f;
+}
+
+.btn-2 {
+  color: #277f7b;
+}
+
+.btn-2:hover:after {
+  backface-visibility: hidden;
+  border-color: #333;
+  transition: width 350ms ease-in-out;
+  width: 63%;
+}
+
+.btn-2:hover {
+  color: #277f7b;
+}
+
+.btn-3 {
+  color: #40a6bd;
+}
+
+.btn-3:hover:after {
+  backface-visibility: hidden;
+  border-color: #333;
+  transition: width 350ms ease-in-out;
+  width: 28%;
+}
+
+.btn-3:hover {
+  color: #40a6bd;
+}
+
+.btn-4 {
+  color: #275575;
+}
+
+.btn-4:hover:after {
+  backface-visibility: hidden;
+  border-color: #333;
+  transition: width 350ms ease-in-out;
+  width: 77%;
+}
+
+.btn-4:hover {
+  color: #275575;
 }

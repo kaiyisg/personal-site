@@ -13,6 +13,20 @@
 /* BASE RULES */
 /**************/
 
+@media only screen and (min-width:900px){
+  .col-cus-left {
+    -ms-flex-preferred-size:45%;
+    flex-basis:45%;
+    max-width:45%
+  }
+
+  .col-cus-right{
+    -ms-flex-preferred-size:55%;
+    flex-basis:55%;
+    max-width:55%
+  }
+}
+
 @media only screen and (min-width:700px){
   .col-cus-left {
     -ms-flex-preferred-size:38%;
@@ -80,6 +94,20 @@
     -ms-flex-preferred-size:80%;
     flex-basis:80%;
     max-width:80%
+  }
+}
+
+@media only screen and (max-width:340px){
+  .col-cus-left {
+    -ms-flex-preferred-size:15%;
+    flex-basis:15%;
+    max-width:15%
+  }
+
+  .col-cus-right{
+    -ms-flex-preferred-size:85%;
+    flex-basis:85%;
+    max-width:85%
   }
 }
 
