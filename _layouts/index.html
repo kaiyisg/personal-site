@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} </title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/flexboxgrid.min.css" type="text/css">
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      <div class="row center-xs">
+          <div class="col-xs-6">
+              <div class="box"><div class="main-name">Kai Yi LEE</div></div>
+          </div>
+      </div>
+      <div class="row center-xs middle-xs">
+          <div class="col-xs-6">
+              <div class="box"><div class="main-descrip">builds</div></div>
+          </div>
+          <div class="col-xs-6">
+              <div class="box"><div class="main-link">software</div></div>
+          </div>
+      </div>
+      <div class="row center-xs middle-xs">
+          <div class="col-xs-6">
+              <div class="box"><div class="main-descrip">hacks</div></div>
+          </div>
+          <div class="col-xs-6">
+              <div class="box"><div class="main-link">hardware</div></div>
+          </div>
+      </div>
+      <div class="row center-xs middle-xs">
+          <div class="col-xs-6">
+              <div class="box"><div class="main-descrip">writes a</div></div>
+          </div>
+          <div class="col-xs-6">
+              <div class="box"><div class="main-link">blog</div></div>
+          </div>
+      </div>
+      <div class="row center-xs middle-xs">
+          <div class="col-xs-6">
+              <div class="box"><div class="main-descrip">and is readily</div></div>
+          </div>
+          <div class="col-xs-6">
+              <div class="box"><div class="main-link">contactable</div></div>
+          </div>
+      </div>
+      <div class="row center-xs middle-xs">
+          <div class="col-xs-6">
+              <div class="box">
+                <div class="main-para">
+                  <div>in case you were looking, here is his</div>
+                  <div>resume, linkedin, and github</div>
+                </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+    {% include analytics.html %}
+  </body>
+</html>

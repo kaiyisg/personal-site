@@ -1,40 +1,7 @@
 ---
-layout: default
+layout: index
 ---
 
-<div class="posts">
-
-  <h1>Tech & Entre</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      {% for category in post.categories %}
-        {% if category == 'Tech' %}
-          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
-  </ul>
-
-  <h1>World</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      {% for category in post.categories %}
-        {% if category == 'World' %}
-          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
-  </ul>
-
-  <h1>Personal</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      {% for category in post.categories %}
-        {% if category == 'Personal' %}
-          <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
-  </ul>
-
-</div>
+<!-- {% for post in site.posts %}
+  <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %} -->
