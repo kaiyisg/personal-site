@@ -55,7 +55,21 @@
   }
 }
 
-@media only screen and (max-width:450px){
+@media only screen and (max-width:475px){
+  .col-cus-left {
+    -ms-flex-preferred-size:25%;
+    flex-basis:25%;
+    max-width:25%
+  }
+
+  .col-cus-right{
+    -ms-flex-preferred-size:65%;
+    flex-basis:65%;
+    max-width:65%
+  }
+}
+
+@media only screen and (max-width:400px){
   .col-cus-left {
     -ms-flex-preferred-size:20%;
     flex-basis:20%;
@@ -224,7 +238,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  // border-bottom: 1px solid $lightGray;
 
   @include mobile {
     text-align: center;
@@ -308,6 +322,9 @@ nav {
 .main-name {
   font-size: 50px;
   margin-bottom: 1em;
+  #surname {
+    font-weight: bold;
+  }
 }
 
 .main-link {
@@ -400,3 +417,4 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+@import "button";
