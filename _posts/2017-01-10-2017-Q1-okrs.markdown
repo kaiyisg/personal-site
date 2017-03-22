@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "2017 Q1 Okrs"
+date:   2017-01-10 00:00:00 +0800
+categories: "Personal"
+---
+
+[OKR (Objective - Key Result)](https://rework.withgoogle.com/guides/set-goals-with-okrs/steps/introduction/) is a goal setting framework which Google uses internally. 
+
+OKRs work in the following way:
++ OKR consists of an individual's Objectives for a specific time frame, which are each backed by a few specific and measurable key results (3-4) 
++ Each key result can be graded on a scale of 0 to 1 at the end of the set timeframe 
++ Key results should be stretch goals that make the individual uncomfortable with accomplishing at the point of setting it, and should average a score of 0.7 on the above-mentioned scale
++ Google's OKRs are built to run over a quarter
++ Other [SMART](http://www.yourcoach.be/en/coaching-tools/smart-goal-setting.php) goal setting tactics should also apply in this exercise 
+
+Based on my understanding, the point of Google implementing OKRs is to assist in teamwork between different people in their organization. As OKRs are made to be public, and are not linked to the KPIs of any single employee (ie: achieving a good or bad score in the OKR will in no way affect how your work is judged), people can afford to freely express what company and individual goals they want to achieve with the OKRs without restrain. This helps to build the open culture that Google prides itself on, where people from other departments who do not know you could understand what you are trying to achieve this quarter just by looking at your OKR. OKRs also assist in aligning the objectives of project members to the key results of project leaders, ensuring that people are aligned in a specific project.
+
+Despite OKRs mainly being a coordinating goal setting framework for large teams, I want to use OKRs to chart my daily progress too, as I require a goal setting framework anyway. These OKRs will be re-evaluated and re-set every 3 months in my time here in the bay area. The following details my OKRs for this quarter (Jan to March 2017):
+
+### *Objective 1: Increase my self awareness and direction, and start planning long term*
++ Read, summarize, and apply ETL concepts like designing my life to myself
++ Set a daily schedule and adhere to it from monday to friday
++ Set up my blog page and blog on it to reflect about my time here, at least once a week - blog on interesting topics to internalize them
++ Read and summarize [interesting online resources](https://docs.google.com/document/d/1FbCWcnnajHWk594dKmN35b_we50WZf_-cwxqg-cYaRY/edit)
++ Plan for events and conferences that I want to go for this year
+
+### *Objective 2: Increase my financial awareness and management strategy*
++ Do research, and understand all the terms and metrics used by people to make investment decisions
++ Manage my own Singapore and US portfolio, and be able to rationalize and track the choices that I make
+
+### *Objective 3: IoT-ize my room to learn about building IoT stuff, and be proficient in it*
++ Set up a facial detection software outside my door
++ Come up with my own cheap IoT node switch based off the ES8266 wifi chip and cheap hardware
+
+### *Objective 4: Increase software engineering proficiencies*
++ Plan out a roadmap for improving my software engineering proficiencies in time for applications in July / interviews in December
++ Learn koa and be able to set up an application using koa at work
++ Attend at least 5 hackathons and be able to work with new people and learn new things at each hackathon
+
+### *Objective 5: Attend events and soak in bay area*
