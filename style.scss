@@ -351,7 +351,7 @@ nav {
 .main-name {
   font-family: 'Work Sans', sans-serif;
   font-size: 50px;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
   #surname {
     font-weight: bold;
   }
@@ -429,16 +429,19 @@ nav {
 }
 
 .wrapper-footer {
-  margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
-  background-color: $lightGray;
   position: absolute;
   left: 0;
   bottom: 0;
-  height: 100px;
   width: 100%;
   overflow:hidden;
+}
+
+.footer-links {
+  color: #277f7b;
+}
+
+.footer-links:hover {
+  color: #277f7b;
 }
 
 .container-elip {
