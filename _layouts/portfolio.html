@@ -1,12 +1,57 @@
 ---
 layout: default
 ---
+<div class="row">
+    {% for post in site.posts %}
+      {% for category in post.categories %}
+        {% if category == 'Hardware' %}  
+          <div class="col-xs-12 col-md-6 col-lg-4">        
+            <div class="box">
+              <div class='card'>
+                <div class='card-header'>
+                  <div class='center-vertical'>
+                    <h2>ES6 Cheatsheet</h2>
+                  </div>
+                </div>
+                <div class='card-img-container'>
+                  <img src='img/es6.jpg' height='100%' width='100%'>
+                </div>
 
-<article class="page">
+                <div class='card-description'>
+                  An ES6 Cheatsheet containing tips, tricks and best practices, based on my <a href='https://www.youtube.com/watch?v=mies4elKBa4' target='_blank' style="color:#ff6961;">node.js meetup talk</a>. Code snippets provide ES5 -> ES6 Equivalents.
+                </div>
 
-  <h1>{{ page.title }}</h1>
+                <div class='pure-g'>
+                  <div class='pure-u-1-2'>
+                    <div class='card-links'>
+                      <button class='button'><a href="https://github.com/DrkSephy/es6-cheatsheet" target='_blank'>Source</a></button>
+                    </div>
+                  </div>
+                  <div class='pure-u-1-2'>
+                    <div class='card-links'>
+                      <button class='button'><a href="https://www.youtube.com/watch?v=mies4elKBa4" target='_blank'>Video</a></button>
+                    </div>
+                  </div>
+                </div>
 
-  <div class="entry">
-    {{ content }}
-  </div>
-</article>
+                <div class='pure-g'>
+                  <div class='pure-u-1-2'>
+                    <div class='card-links'>
+                      <div class='card-links'>
+                        <iframe src="https://ghbtns.com/github-btn.html?user=drksephy&repo=es6-cheatsheet&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+                      </div>
+                    </div>
+                  </div>
+                  <div class='pure-u-1-2'>
+                    <div class='card-links'>
+                      <iframe src="https://ghbtns.com/github-btn.html?user=drksephy&repo=es6-cheatsheet&type=watch&count=true&size=large&v=2" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+</div>
