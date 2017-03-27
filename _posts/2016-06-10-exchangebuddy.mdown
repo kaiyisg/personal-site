@@ -8,6 +8,7 @@ images:
     alt: ExchangeBuddy
     title: ExchangeBuddy
 category: "Hardware"
+description: "hello this is some description"
 ---
 
 i did some work on exchangebuddy
