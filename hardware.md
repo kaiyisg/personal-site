@@ -4,4 +4,4 @@ title: Hardware
 permalink: /hardware/
 ---
 
-Show all the hardware here!
+As an Electrical Engineer, 
