@@ -3,8 +3,7 @@ layout: post
 title:  "ExchangeBuddy"
 date:   2016-09-01 16:41:12 +0800
 images:
-
-  - url: /images/
+  - url: "/images/exchangebuddy.png"
     alt: ExchangeBuddy
     title: ExchangeBuddy
 category: "Hardware"

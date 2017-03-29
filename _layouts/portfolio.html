@@ -10,7 +10,9 @@ layout: default
     {% if category == 'Hardware' %} 
       <div class="card">
         <div class="image">
-          <img src="/images/devpost.png">
+          <!-- <img src=> -->
+          {% img /images/giveaway.png "desc" %}
+          <!-- {{ post.images | asset_url | img_tag }} -->
         </div>
         <div class="content">
           <div class="header">{{ post.title }}</div>
