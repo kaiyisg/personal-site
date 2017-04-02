@@ -1,14 +1,13 @@
 ---
 layout: post
 title:  "Keen"
-date:   2016-09-01 16:41:12 +0800
+date:   2017-03-05 16:41:12 +0800
 images:
 
-  - url: /images/keen.png
-    alt: keen
-    title: keen
+  - url: /images/sudochef.png
+    alt: sudochef
+    title: sudochef
 category: "Hardware"
-github: 
 ---
 
 {% assign image = page.images[0] %} <-- first element of the array is zero

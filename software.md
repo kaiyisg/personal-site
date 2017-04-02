@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-title: Software
+title: 'Software'
 permalink: /software/
 ---
 

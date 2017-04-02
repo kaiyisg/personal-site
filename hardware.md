@@ -1,6 +1,6 @@
 ---
 layout: portfolio
-title: Hardware
+title: 'Hardware'
 permalink: /hardware/
 ---
 

@@ -7,27 +7,8 @@ layout: default
 <div class="ui link cards">
 {% for post in site.posts %}
   {% for category in post.categories %}
-    {% if category == 'Hardware' %} 
-      <div class="card">
-        <div class="image">
-          <!-- <img src=> -->
-          {% img /images/giveaway.png "desc" %}
-          <!-- {{ post.images | asset_url | img_tag }} -->
-        </div>
-        <div class="content">
-          <div class="header">{{ post.title }}</div>
-          <!-- <div class="meta">
-            <a>Friends</a>
-          </div> -->
-          <div class="description">
-            {{ post.description }}
-          </div>
-        </div>
-        <div class="extra content">
-          <button class='button'><img src='/images/devpost.png' width='40px'></button>
-          <button class='button'><img src='/images/github.png' width='40px'></button>
-        </div>
-      </div>
+    {% if category == page.title %}
+      {% include card.html post=post %}
     {% endif %}
   {% endfor %}
 {% endfor %}
