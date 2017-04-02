@@ -1,15 +1,15 @@
 ---
 layout: post
-title:  "Keen"
+title:  "Taskky"
 date:   2016-09-01 16:41:12 +0800
 images:
-
   - url: /images/taskky.png
     alt: taskky
     title: taskky
 category: "Software"
-github: 
+github: "https://github.com/cs2103jan2015-t13-2c/main"
+description: "Desktop CLI Task Management Planner"
 ---
 
-{% assign image = page.images[0] %} <-- first element of the array is zero
+{% assign image = page.images[0] %} 
 {% include image.html image=image %}

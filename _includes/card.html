@@ -1,22 +1,13 @@
+<a class="ui card" href="{{ post.url | prepend: site.baseurl }}">
+  <div class="image">
+    {% assign image = post.images[0] %}
+    {% include image.html image=image %}
+  </div>
+  <div class="content">
+    <div class="header">{{ post.title }}</div>
+    <div class="description">
+      {{ post.description }}
+    </div>
+  </div>
+</a>
 
-<div class="card">
-  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-    <div class="image">
-      {% assign image = post.images[0] %}
-      {% include image.html image=image %}
-    </div>
-    <div class="content">
-      <div class="header">{{ post.title }}</div>
-      <!-- <div class="meta">
-        <a>Friends</a>
-      </div> -->
-      <div class="description">
-        {{ post.description }}
-      </div>
-    </div>
-    <div class="extra content">
-      <button class='button'><img src='/images/devpost.png' width='40px'></button>
-      <button class='button'><img src='/images/github.png' width='40px'></button>
-    </div>
-  </a>
-</div>

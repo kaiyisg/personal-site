@@ -1,52 +1,19 @@
 ---
 layout: default
 ---
-<div class="row">
-  {{ content }}
+
+<div class="row center-xs">
+{{ content }}
 </div>
-<div class="ui link cards">
-{% for post in site.posts %}
-  {% for category in post.categories %}
-    {% if category == page.title %}
-      {% include card.html post=post %}
-    {% endif %}
-  {% endfor %}
-{% endfor %}
-</div>
-<!-- <div class="row">
-  {% for post in site.posts %}
-    {% for category in post.categories %}
-      {% if category == 'Hardware' %}  
-        <div class="col-xs-12 col-md-6 col-lg-4">        
-          <div class="box">
-            <div class='card'>
-              <div class='card-header'>
-                <div class='center-vertical'>
-                  <h2>{{ post.title }}</h2>
-                </div>
-              </div>
-              <div class='card-img-container'>
-                <img src='/images/devpost.png' height='100%' width='100%'>
-              </div>
-              <div class='card-description'>
-                {{ post.description }}
-              </div>
-              <div class='row'>
-                <div class='col-xs-6'>
-                  <div class='card-links'>
-                    <button class='button'><img src='/images/devpost.png' height='100%' width='100%'></button>
-                  </div>
-                </div>
-                <div class='col-xs-6'>
-                  <div class='card-links'>
-                    <button class='button'><img src='/images/github.png' height='100%' width='100%'></button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      {% endif %}
+
+<div class="row center-xs">
+  <div class="ui link centered cards">
+    {% for post in site.posts %}
+      {% for category in post.categories %}
+        {% if category == page.title %}
+          {% include card.html post=post %}
+        {% endif %}
+      {% endfor %}
     {% endfor %}
-  {% endfor %}
-</div> -->
+  </div>
+</div>

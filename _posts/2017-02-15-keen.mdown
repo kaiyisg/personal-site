@@ -3,13 +3,13 @@ layout: post
 title:  "Keen"
 date:   2016-09-01 16:41:12 +0800
 images:
-
   - url: /images/keen.png
     alt: keen
     title: keen
-category: "Hardware"
-github: 
+category: "Software"
+description: 'Point of Sale device for billboards for the Clover Mini '
+github: 'https://github.com/kaiyisg/keen'
 ---
 
-{% assign image = page.images[0] %} <-- first element of the array is zero
+{% assign image = page.images[0] %} 
 {% include image.html image=image %}

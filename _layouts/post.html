@@ -4,18 +4,40 @@ layout: default
 
 <article class="post">
   <h1>{{ page.title }}</h1>
-
   <div class="date">
     Last hacked {{ page.date | date: "%B %e, %Y" }}
   </div>
-
-
   <div class="entry">
     {{ content }}
   </div>
-
-
-  {% include disqus.html %}
+    {% if page.github %}
+      <a href="{{ page.github }}">
+        <button class='button'>
+          <img src='/images/github.png' width='40px'>
+        </button>
+      </a>
+    {% endif %}
+    {% if page.devpost %}
+      <a href="{{ page.devpost }}">
+        <button class='button'>
+          <img src='/images/devpost.png' width='40px'>
+        </button>
+      </a>
+    {% endif %}
+    {% if page.website %}
+      <a href="{{ page.website }}">
+        <button class='button'>
+          <img src='/images/website.png' width='40px'>
+        </button>
+      </a>
+    {% endif %}
+    {% if page.android %}
+      <a href="{{ page.android }}">
+        <button class='button'>
+          <img src='/images/android.png' width='40px'>
+        </button>
+      </a>
+    {% endif %}
 </article>
 
 <div id="related">

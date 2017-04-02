@@ -1,14 +1,16 @@
 ---
 layout: post
-title:  "Keen"
+title:  "Sudochef"
 date:   2017-03-05 16:41:12 +0800
 images:
-
   - url: /images/sudochef.png
     alt: sudochef
     title: sudochef
 category: "Hardware"
+description: "Automatic scheduler for meal preparation steps from online recipes, powered by Amazon Alexa"
+devpost: "https://devpost.com/software/sudochef"
+github: "https://github.com/kaiyisg/sudochef"
 ---
 
-{% assign image = page.images[0] %} <-- first element of the array is zero
+{% assign image = page.images[0] %} 
 {% include image.html image=image %}
