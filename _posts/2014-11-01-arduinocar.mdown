@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Arduino Car"
+date:   2014-11-01 16:41:12 +0800
+images:
+  - url: /images/arduinocar.png
+    alt: arduinocar
+    title: arduinocar
+category: "Hardware"
+description: "Arduino-powered path tracking toy car"
+---
+
+{% assign image = page.images[0] %} 
+{% include image.html image=image %}

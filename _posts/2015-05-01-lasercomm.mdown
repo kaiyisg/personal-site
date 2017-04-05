@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Laser Communicator"
+date:   2015-05-01 16:41:12 +0800
+images:
+  - url: /images/lasercomm.png
+    alt: lasercomm
+    title: lasercomm
+category: "Hardware"
+description: "Laser digital audio transmission system"
+---
+
+{% assign image = page.images[0] %} 
+{% include image.html image=image %}
+
+Laser digital transmission system capable of transmitting audio signals across a distance of more than 5 meters

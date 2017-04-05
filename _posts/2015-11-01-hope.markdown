@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Hope"
+date:   2015-11-01 16:41:12 +0800
+images:
+  - url: /images/hope.png
+    alt: hope
+    title: hope
+category: "Hardware"
+github: "https://github.com/kaiyisg/martian-explorer-hope"
+description: "LPC17X ARM-based space explorer unit"
+---
+
+{% assign image = page.images[0] %} 
+{% include image.html image=image %}
