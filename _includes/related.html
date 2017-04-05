@@ -2,7 +2,8 @@
 
 <h4>Other similar hacks include: </h4> 
 
-<div class="ui six doubling cards">
+<!-- <div class="ui six doubling cards"> -->
+<div class="ui tiny images">
 {% assign maxRelated = 6 %}
 {% assign minCommonTags =  1 %}
 {% assign maxRelatedCounter = 0 %}
@@ -23,11 +24,16 @@
     {% endfor %}
 
     {% if sameTagCount >= minCommonTags %}
-      <a class="ui card" href="{{ post.url | prepend: site.baseurl }}">
+      <!-- <a class="ui card" href="{{ post.url | prepend: site.baseurl }}">
         <div class="image">
           {% assign image = post.images[0] %}
           {% include image.html image=image %}
         </div>
+      </a> -->
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <!-- {% assign image = post.images[0] %}
+        {% include image.html image=image %} -->
+        <img class="ui image" src='/images/github.png'>
       </a>
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}

@@ -8,9 +8,5 @@ images:
     title: lasercomm
 category: "Hardware"
 description: "Laser digital audio transmission system"
+main: "Laser digital transmission system capable of transmitting audio signals across a distance of more than 5 meters"
 ---
-
-{% assign image = page.images[0] %} 
-{% include image.html image=image %}
-
-Laser digital transmission system capable of transmitting audio signals across a distance of more than 5 meters

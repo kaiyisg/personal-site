@@ -3,42 +3,88 @@ layout: default
 ---
 
 <article class="post">
-  <h1>{{ page.title }}</h1>
-  <div class="date">
-    Last hacked {{ page.date | date: "%B %e, %Y" }}
+  <div class="ui items">
+    <div class="item">
+      <div class="image">
+        {% assign image = page.images[0] %}
+        {% include image.html image=image %}
+      </div>
+      <div class="content">
+        <a class="header">{{ page.title }}</a>
+        <div class="meta">
+          <span class="cinema">
+            Last hacked {{ page.date | date: "%B %e, %Y" }}
+          </span>
+        </div>
+        <div class="description">
+          <p>{{ page.main }}</p>
+        </div>
+        <div class="extra">
+          <div class="ui mini images">
+            {% if page.github %}
+              <a href="{{ page.github }}">
+                <button class='button'>
+                  <img class="ui image" src='/images/github.png'>
+                </button>
+              </a>
+            {% endif %}
+            {% if page.devpost %}
+              <a href="{{ page.devpost }}">
+                <button class='button'>
+                  <img class="ui image" src='/images/devpost.png'>
+                </button>
+              </a>
+            {% endif %}
+            {% if page.website %}
+              <a href="{{ page.website }}">
+                <button class='button'>
+                  <img class="ui image" src='/images/website.png'>
+                </button>
+              </a>
+            {% endif %}
+            {% if page.android %}
+              <a href="{{ page.android }}">
+                <button class='button'>
+                  <img class="ui image" src='/images/android.png'>
+                </button>
+              </a>
+            {% endif %}
+          </div>
+          <!-- {% if page.github %}
+            <a href="{{ page.github }}">
+              <button class='button'>
+                <img src='/images/github.png' width='40px'>
+              </button>
+            </a>
+          {% endif %}
+          {% if page.devpost %}
+            <a href="{{ page.devpost }}">
+              <button class='button'>
+                <img src='/images/devpost.png' width='40px'>
+              </button>
+            </a>
+          {% endif %}
+          {% if page.website %}
+            <a href="{{ page.website }}">
+              <button class='button'>
+                <img src='/images/website.png' width='40px'>
+              </button>
+            </a>
+          {% endif %}
+          {% if page.android %}
+            <a href="{{ page.android }}">
+              <button class='button'>
+                <img src='/images/android.png' width='40px'>
+              </button>
+            </a>
+          {% endif %} -->
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="entry">
-    {{ content }}
-  </div>
-    {% if page.github %}
-      <a href="{{ page.github }}">
-        <button class='button'>
-          <img src='/images/github.png' width='40px'>
-        </button>
-      </a>
-    {% endif %}
-    {% if page.devpost %}
-      <a href="{{ page.devpost }}">
-        <button class='button'>
-          <img src='/images/devpost.png' width='40px'>
-        </button>
-      </a>
-    {% endif %}
-    {% if page.website %}
-      <a href="{{ page.website }}">
-        <button class='button'>
-          <img src='/images/website.png' width='40px'>
-        </button>
-      </a>
-    {% endif %}
-    {% if page.android %}
-      <a href="{{ page.android }}">
-        <button class='button'>
-          <img src='/images/android.png' width='40px'>
-        </button>
-      </a>
-    {% endif %}
 </article>
+
+<div class="ui divider"></div>
 
 <div id="related">
   {% include related.html %}
