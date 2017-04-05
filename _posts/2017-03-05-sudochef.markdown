@@ -12,5 +12,4 @@ devpost: "https://devpost.com/software/sudochef"
 github: "https://github.com/kaiyisg/sudochef"
 ---
 
-{% assign image = page.images[0] %} 
-{% include image.html image=image %}
+SudoChef is an Amazon Alexa powered superuser speech bot that schedules the intructions of the recipes of meals you want to prepare. On the backend, our algorithm interleaves various cooking instructions of the recipes optimally such that the total time spent on making your dishes will be minimized. 

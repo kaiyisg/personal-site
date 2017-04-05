@@ -456,6 +456,13 @@ nav {
   max-height: 450px;
 }
 
+@media only screen and (max-width: 767px) {
+  .ui.items:not(.unstackable)>.item {
+    margin-top: 0px!important;
+  }
+}
+
+
 
 footer {
   padding: 20px 0;

@@ -17,67 +17,41 @@ layout: default
           </span>
         </div>
         <div class="description">
-          <p>{{ page.main }}</p>
+          <p>{{ content }}</p>
+        </div>
+        <div class="extra">
+          {% for skill in page.skills %}
+            <div class="ui label">{{ skill }}</div>
+          {% endfor %}
         </div>
         <div class="extra">
           <div class="ui mini images">
             {% if page.github %}
               <a href="{{ page.github }}">
-                <button class='button'>
-                  <img class="ui image" src='/images/github.png'>
-                </button>
+                <img class="ui image" src='/images/github.png'>
               </a>
             {% endif %}
             {% if page.devpost %}
               <a href="{{ page.devpost }}">
-                <button class='button'>
-                  <img class="ui image" src='/images/devpost.png'>
-                </button>
+                <img class="ui image" src='/images/devpost.png'>
               </a>
             {% endif %}
             {% if page.website %}
               <a href="{{ page.website }}">
-                <button class='button'>
-                  <img class="ui image" src='/images/website.png'>
-                </button>
+                <img class="ui image" src='/images/website.png'>
               </a>
             {% endif %}
             {% if page.android %}
               <a href="{{ page.android }}">
-                <button class='button'>
-                  <img class="ui image" src='/images/android.png'>
-                </button>
+                <img class="ui image" src='/images/android.png'>
+              </a>
+            {% endif %}
+            {% if page.youtube %}
+              <a href="{{ page.youtube }}">
+                <img class="ui image" src='/images/youtube.png'>
               </a>
             {% endif %}
           </div>
-          <!-- {% if page.github %}
-            <a href="{{ page.github }}">
-              <button class='button'>
-                <img src='/images/github.png' width='40px'>
-              </button>
-            </a>
-          {% endif %}
-          {% if page.devpost %}
-            <a href="{{ page.devpost }}">
-              <button class='button'>
-                <img src='/images/devpost.png' width='40px'>
-              </button>
-            </a>
-          {% endif %}
-          {% if page.website %}
-            <a href="{{ page.website }}">
-              <button class='button'>
-                <img src='/images/website.png' width='40px'>
-              </button>
-            </a>
-          {% endif %}
-          {% if page.android %}
-            <a href="{{ page.android }}">
-              <button class='button'>
-                <img src='/images/android.png' width='40px'>
-              </button>
-            </a>
-          {% endif %} -->
         </div>
       </div>
     </div>

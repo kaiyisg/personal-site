@@ -24,16 +24,9 @@
     {% endfor %}
 
     {% if sameTagCount >= minCommonTags %}
-      <!-- <a class="ui card" href="{{ post.url | prepend: site.baseurl }}">
-        <div class="image">
-          {% assign image = post.images[0] %}
-          {% include image.html image=image %}
-        </div>
-      </a> -->
       <a href="{{ post.url | prepend: site.baseurl }}">
-        <!-- {% assign image = post.images[0] %}
-        {% include image.html image=image %} -->
-        <img class="ui image" src='/images/github.png'>
+        {% assign image = post.images[0] %}
+        {% include relimage.html image=image %}
       </a>
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
       {% if maxRelatedCounter >= maxRelated %}

@@ -6,9 +6,9 @@ images:
   - url: /images/arduinocar.png
     alt: arduinocar
     title: arduinocar
+youtube: "https://www.youtube.com/watch?v=MnEgmS4VqK8&feature=youtu.be"
 category: "Hardware"
 description: "Arduino-powered path tracking toy car"
 ---
 
-{% assign image = page.images[0] %} 
-{% include image.html image=image %}
+This arduino-based car tracks a black colored path on a white background, navigating the path based on the amount of light reflected back onto an attached light dependent resistor. This project was built under the class EE1002 taken in NUS, with my car project coming in the fastest in my laboratory group.

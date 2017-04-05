@@ -11,5 +11,3 @@ github: "https://github.com/kaiyisg/martian-explorer-hope"
 description: "LPC17X ARM-based space explorer unit"
 ---
 
-{% assign image = page.images[0] %} 
-{% include image.html image=image %}
