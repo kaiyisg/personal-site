@@ -10,6 +10,3 @@ category: "Software"
 description: 'Point of Sale device for billboards for the Clover Mini '
 github: 'https://github.com/kaiyisg/keen'
 ---
-
-{% assign image = page.images[0] %} 
-{% include image.html image=image %}

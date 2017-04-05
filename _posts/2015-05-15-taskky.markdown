@@ -10,6 +10,3 @@ category: "Software"
 github: "https://github.com/cs2103jan2015-t13-2c/main"
 description: "Desktop CLI Task Management Planner"
 ---
-
-{% assign image = page.images[0] %} 
-{% include image.html image=image %}
