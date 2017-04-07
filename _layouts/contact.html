@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<form action="https://formspree.io/kaiyisg@yahoo.com.sg" method="POST">
+  <div class="ui form">
+    <h4 class="ui dividing header">Fill in your information to contact me!</h4>
+    <div class="required field">
+      <label>Name: </label>
+      <input type="text" name="name">
+    </div>
+    <div class="required field">
+      <label>Email: </label>
+      <input type="email" name="_replyto">
+    </div>
+    <div class="required field">
+      <label>Subject: </label>
+      <input type="text" name="_subject">
+    </div>
+    <div class="required field">
+      <label>Message: </label>
+      <input type="text" name="message">
+    </div>
+    <!-- 
+    <div class="required field">
+      <label>Message: </label>
+      <textarea name="message" rows="2"></textarea>
+    </div> 
+    -->
+    <input class="button-submit" type="submit" value="Send">
+    <input type="hidden" name="_next" value="/" />
+  </div>
+</form>
