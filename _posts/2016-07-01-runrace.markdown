@@ -10,8 +10,8 @@ category: 'Software'
 description: "Android tool to discover running and race events around the world"
 website: "https://iquii.com/en/works/runrace-en/"
 android: "https://play.google.com/store/apps/details?id=com.iquii.runrace&hl=en"
+skills: 
+  - title: "Android"
+    url: "https://www.android.com/"
 ---
-
-<!-- Post body begin, and first image not in excerpt
-{% assign image = page.images[0] %}  first element of the array is zero
-{% include image.html image=image %} -->
+RunRace is an italian based, production ready application that allows you to discover the events dedicated to running and similar activities from all over the world. The app is specialized in the real-time research of events related to walking races such as running, walking, marathon, foot race, relay races and many others. I built the android version of this application, linking up the application with a RESTful backend. I completed Runrace during an internship at [IQUII](https://iquii.com/).

@@ -9,5 +9,10 @@ images:
 category: "Hardware"
 github: "https://github.com/kaiyisg/martian-explorer-hope"
 description: "LPC17X ARM-based space explorer unit"
+skills:
+  - title: "x86 Assembly"
+  - title: "ARM Cortex LPC17XX"
+    url: "http://www.nxp.com/documents/data_sheet/LPC1769_68_67_66_65_64_63.pdf"
 ---
 
+Explorer unit that integrates temperature, accelerometer, and other onboard sensors to carry out tasks, and display the results on the LCD screen connected to the board. Built as part of the class [Programming for Computer Interfaces](https://myaces.nus.edu.sg/cors/jsp/report/ModuleDetailedInfo.jsp?acad_y=2014/2015&sem_c=1&mod_c=EE2024) taken in the National University of Singapore, using the core ARM Cortex libraries.

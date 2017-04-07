@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Dropin"
+date:   2016-09-01 16:41:12 +0800
+images:
+  - url: "/images/dropin.png"
+    alt: dropin
+    title: dropin
+category: 'Software'
+description: "Location-based social networking application, with anonymizing capabilities"
+github: "https://github.com/leonmak/dropin-react-create-app"
+website: "https://dropins.space/"
+skills: 
+  - title: "React"
+    url: "https://facebook.github.io/react/"
+  - title: "Prototyping"
+---
+Dropin is a location based social media platform, that allows users to quickly understand the contex of the area that they are in through emotion based drops of other users. Dropin's communication capabilities are built on top of web sockets, allowing for realtime communication among users. Dropin was built during the class [Software Product Engineering for Digital Markets](http://www.cs3216.com/) taken in the National University of Singapore.

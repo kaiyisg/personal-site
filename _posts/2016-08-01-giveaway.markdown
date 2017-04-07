@@ -9,8 +9,9 @@ images:
 category: 'Software'
 description: "Platform to donate and search for second hand stuff"
 website: "http://getgiveaway.com/"
+website: "https://dropins.space/"
+skills: 
+  - title: "Android"
+    url: "https://www.android.com/"
 ---
-
-<!-- Post body begin, and first image not in excerpt
-{% assign image = page.images[0] %}  first element of the array is zero
-{% include image.html image=image %} -->
+Giveaway is a platform for people to give away second hand goods that they no longer require, contributing to the concept of a [circular economy](https://en.wikipedia.org/wiki/Circular_economy). I built the android version of this application, linking up the application with a RESTful backend. I worked on Giveaway during an internship at [IQUII](https://iquii.com/).

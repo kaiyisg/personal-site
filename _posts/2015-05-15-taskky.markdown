@@ -9,4 +9,7 @@ images:
 category: "Software"
 github: "https://github.com/cs2103jan2015-t13-2c/main"
 description: "Desktop CLI Task Management Planner"
+skills:
+  - title: "C++"
 ---
+Taskky is a desktop based CLI Task Management Planner, accepting input commands through a command format. Taskky will then present the user’s tasks through an intuitive user interface that facilitates the user’s planning for future events, with support for different types of tasks including deadline tasks, timed tasks, and floating tasks, and tracking outstanding and imminent tasks. Built as part of the class [Software Engineering](http://www.comp.nus.edu.sg/~cs2103/), taken in the National University of Singapore.
