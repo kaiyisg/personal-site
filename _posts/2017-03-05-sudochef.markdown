@@ -10,6 +10,9 @@ category: "Hardware"
 description: "Automatic scheduler for meal preparation steps from online recipes, powered by Amazon Alexa"
 devpost: "https://devpost.com/software/sudochef"
 github: "https://github.com/kaiyisg/sudochef"
+skills: 
+  - title: "Amazon Alexa"
+    url: "https://developer.amazon.com/alexa-skills-kit"
 ---
 
-SudoChef is an Amazon Alexa powered superuser speech bot that schedules the intructions of the recipes of meals you want to prepare. On the backend, our algorithm interleaves various cooking instructions of the recipes optimally such that the total time spent on making your dishes will be minimized. 
+SudoChef is an Amazon Alexa powered superuser speech bot that schedules the intructions of the recipes of meals you want to prepare. On the backend, our algorithm interleaves various cooking instructions of the recipes optimally such that the total time spent on making your dishes will be minimized. This project was hacked out during [Hacktech 2017](http://hacktech.io/).

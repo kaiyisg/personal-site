@@ -9,6 +9,9 @@ images:
 category: "Software"
 github: "https://github.com/benlowkh/WeCare"
 description: "Android communication app for the cognitively disabled"
+skills: 
+  - title: "Android"
+    url: "https://www.android.com/"
 ---
 Simpletalk is designed for the cognitively disabled to enable easy communication with their loved ones, or to access emergency services, through an android device. Built during the [Enabling Community coLab](http://www.upsingapore.com/events/enabling-community-colab/) hackathon in Singapore.
 

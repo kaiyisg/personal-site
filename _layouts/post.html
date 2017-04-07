@@ -21,7 +21,11 @@ layout: default
         </div>
         <div class="extra">
           {% for skill in page.skills %}
-            <div class="ui label">{{ skill }}</div>
+            {% if skill.url %}
+              <a href="{{skill.url}}" class="ui label">{{ skill.title }}</a>
+            {% else %}
+              <div class="ui label">{{ skill.title }}</div>
+            {% endif %}
           {% endfor %}
         </div>
         <div class="extra">

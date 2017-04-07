@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Keen"
+date:   2017-02-15 16:41:12 +0800
+images:
+  - url: /images/keen.png
+    alt: keen
+    title: keen
+category: "Software"
+description: 'Point of Sale device for billboards for the Clover Mini '
+github: 'https://github.com/kaiyisg/keen'
+skills: 
+  - title: "Clover Mini"
+    url: "https://www.clover.com/get-paid/mini"
+  - title: "Android"
+    url: "https://www.android.com/"
+---
+Keen is an unmanned point of sale system built on the Clover Mini device, to enhance the effectiveness of traditional print media advertising. Customers will be able to purchase items on the device being advertised in the billboard, facilitating not only faster transactions for customers, but also higher turnover for merchants. Keen was built during the [2017 Devweek Hackathon](http://www.developerweek.com/hackathon/).
