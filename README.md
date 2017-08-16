@@ -10,5 +10,5 @@
 
 ## Credits
 
-- [Jekyll](https://github.com/jekyll/jekyll) - Thanks to its creators, contributors and maintainers.
+- [Jekyll](https://github.com/jekyll/jjekyll serve --watchekyll) - Thanks to its creators, contributors and maintainers.
 - [Barry Clark](https://github.com/barryclark/jekyll-now/) - For the boiler plate of Jekyll-now that this repo was based on
