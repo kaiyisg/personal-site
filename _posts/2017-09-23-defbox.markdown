@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Defbox"
+date:   2017-09-23 16:41:12 +0800
+images:
+  - url: /images/defbox.png
+    alt: defbox
+    title: defbox
+category: "Software"
+description: "IoT Postbox to ensure remote secure package delivery"
+github: "https://github.com/kaiyisg/defbox"
+invision: "https://projects.invisionapp.com/share/ZEDMRW5P9#/screens/254935164"
+skills:
+  - title: "Android"
+    url: "https://www.android.com/"
+  - title: "Raspberry Pi"
+    url: "https://www.raspberrypi.org/"
+
+---
+
+Defbox is an IoT postbox that solves the problem of receiving registered mail that has to be signed, for houses in suburban contexts. This problem arose due to the emergence of online delivery services leaving mail outside of houses during office hours when people are usually not home, which may be subject to external weather elements, or exposed to other people taking these packages.
+
+The Defbox platform includes mobile apps that the receiver can use to track delivery people delivering things to their house, in real time through location tracking on the deliveryperson's application. When the deliveryman reaches the receiver's defbox, the receiver will be able to remotely unlock the box upon visual confirmation of the deliveryman through the camera on the defbox, and lock it when his package is safely stored in his defbox.
+
+This project was hacked during [API World 2017](http://apiworld.co/hackathon/), and was one of the top 5 finalist.
